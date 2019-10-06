@@ -1,0 +1,31 @@
+{
+    "name": "codingfoundry/laravel-ui",
+    "description": "Coding Foundry Default UI Presets",
+    "keywords": ["laravel", "presets", "laravel presets", "ui", "laravel ui"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0",
+        "laravel/ui": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Taylor Maguire",
+            "email": "taylor@codingfoundry.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodingFoundry\\LaravelUI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodingFoundry\\LaravelUI\\UIServiceProvider"
+            ]
+        }
+    }
+}
