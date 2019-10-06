@@ -20,5 +20,6 @@ php artisan ui tailwind
 php artisan ui tailwind-vue
 ```
 ### For Tailwind, Vue, and Auth Views
+```
 php artisan ui tailwind-vue-auth
 ```
